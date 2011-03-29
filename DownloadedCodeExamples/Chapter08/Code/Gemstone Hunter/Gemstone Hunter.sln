@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gemstone Hunter", "Gemstone Hunter\Gemstone Hunter\Gemstone Hunter.csproj", "{B1DDE12B-EBF8-4D92-B2C5-891C88378532}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Gemstone HunterContent", "Gemstone Hunter\Gemstone HunterContent\Gemstone HunterContent.contentproj", "{3F95C8D5-A4BD-4D88-9EC9-19C6C4440B7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tile Engine", "Tile Engine\Tile Engine.csproj", "{2E47004F-2DEE-4861-8571-3C06090F002E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Level Editor", "Level Editor\Level Editor\Level Editor.csproj", "{A112B6C5-7FBB-4BE6-AF66-49F839596703}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Level EditorContent", "Level Editor\Level EditorContent\Level EditorContent.contentproj", "{A92CE17F-542B-4F84-9344-87E716425202}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|x86.ActiveCfg = Debug|x86
+		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Debug|x86.Build.0 = Debug|x86
+		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Release|Any CPU.ActiveCfg = Release|x86
+		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Release|x86.ActiveCfg = Release|x86
+		{B1DDE12B-EBF8-4D92-B2C5-891C88378532}.Release|x86.Build.0 = Release|x86
+		{3F95C8D5-A4BD-4D88-9EC9-19C6C4440B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F95C8D5-A4BD-4D88-9EC9-19C6C4440B7C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F95C8D5-A4BD-4D88-9EC9-19C6C4440B7C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F95C8D5-A4BD-4D88-9EC9-19C6C4440B7C}.Release|x86.ActiveCfg = Debug|Any CPU
+		{2E47004F-2DEE-4861-8571-3C06090F002E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2E47004F-2DEE-4861-8571-3C06090F002E}.Debug|x86.ActiveCfg = Debug|x86
+		{2E47004F-2DEE-4861-8571-3C06090F002E}.Debug|x86.Build.0 = Debug|x86
+		{2E47004F-2DEE-4861-8571-3C06090F002E}.Release|Any CPU.ActiveCfg = Release|x86
+		{2E47004F-2DEE-4861-8571-3C06090F002E}.Release|x86.ActiveCfg = Release|x86
+		{2E47004F-2DEE-4861-8571-3C06090F002E}.Release|x86.Build.0 = Release|x86
+		{A112B6C5-7FBB-4BE6-AF66-49F839596703}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A112B6C5-7FBB-4BE6-AF66-49F839596703}.Debug|x86.ActiveCfg = Debug|x86
+		{A112B6C5-7FBB-4BE6-AF66-49F839596703}.Debug|x86.Build.0 = Debug|x86
+		{A112B6C5-7FBB-4BE6-AF66-49F839596703}.Release|Any CPU.ActiveCfg = Release|x86
+		{A112B6C5-7FBB-4BE6-AF66-49F839596703}.Release|x86.ActiveCfg = Release|x86
+		{A112B6C5-7FBB-4BE6-AF66-49F839596703}.Release|x86.Build.0 = Release|x86
+		{A92CE17F-542B-4F84-9344-87E716425202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92CE17F-542B-4F84-9344-87E716425202}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A92CE17F-542B-4F84-9344-87E716425202}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92CE17F-542B-4F84-9344-87E716425202}.Release|x86.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
