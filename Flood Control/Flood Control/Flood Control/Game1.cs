@@ -19,6 +19,10 @@ namespace Flood_Control
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        Texture2D playingPieces;
+        Texture2D backgroundScreen;
+        Texture2D titleScreen;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -47,7 +51,9 @@ namespace Flood_Control
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            playingPieces = Content.Load<Texture2D>("Textures/Tile_Sheet");
+            backgroundScreen = Content.Load<Texture2D>("Textures/Background");
+            titleScreen = Content.Load<Texture2D>("Textures/TitleScreen");
         }
 
         /// <summary>
